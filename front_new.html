@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	
+	<link rel="stylesheet" type="text/css" href="materialize.min.css">
+	<script type="text/javascript" src="materialize.min.js"></script>
+	
+		<link rel="stylesheet" type="text/css" href="animate.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="not_to_load()">
+
+
+
+<div id="full">
+
+	<div id="top_hide">
+	</div>
+
+	<div id="bottom_hide">
+	</div>
+
+	<div id="back_image">
+
+		<img src="start.gif" id="img_gif">
+	</div>
+
+
+	<div id="next_button" onclick="load_first_page()" >
+		Get Started
+	</div>
+</div>
+
+	<div id="back">
+		<div id="back_temp">
+		</div>
+
+		<div id="left_bar" >
+			
+				<div id="left_bar_back" onclick="load_left_bar()">
+					
+				</div>
+		</div>
+
+		<div id="translu" onclick="load_left_bar()">
+		</div>
+
+		<div id="status_bar" class="z-depth-2" >
+			<div id="left_butn" onclick="load_left_bar()">
+			<img src="image.png" height="80%" width="auto">
+			</div>
+		</div>
+			
+
+		<div id="student" onclick="stud_func()" >
+
+			<div id="back_stud">
+				<img src="arrow.png" height="100%" width="auto">
+			</div>
+
+			<div id="floor_div_stu" onclick="ani(1)">
+				<div id="f1_1" class="f-1">
+				</div>
+
+				<div id="f1_2" class="f-2">
+				</div>
+
+				<div id="f1_3" class="f-3">
+				</div>
+
+				<div id="f1_4" class="f-4">
+				</div>
+
+				<div id="f1_5" class="f-5">
+				</div>
+
+				<div id="f1_6" class="f-6">
+				</div>
+
+				<div id="f1_7" class="f-7">
+				</div>
+
+				<div id="f1_8" class="f-8">
+				</div>
+
+				<div id="f1_9" class="f-9">
+				</div>
+
+			</div>
+
+			<div id="back_details">
+				<div id="det_vac" class="vac">
+				Vacant  5
+				</div>
+
+				<div id="det_par" class="par">
+				Parked  4
+				</div>
+
+				<div id="det_res" class="res">
+				Reserved  3
+				</div>
+			</div>
+
+			<div id="heading_1" class="heading">
+				Ground Floor
+			</div>
+
+			<div id="h1_details" class="h_details">
+				Vacant : 5<br>
+				Parked : 4<br>
+				Reserved : 3
+
+			</div>
+
+			<div id="h1_image" class="h_image">
+				<img src="f0.png">
+			</div>
+		</div>
+
+		
+
+		<div id="register_centre" onclick="regis_func()" >
+			<div id="back_centre" >
+					<img src="arrow.png" height="100%" width="auto">
+			</div>
+
+			<div id="floor_div_reg" onclick="ani(2)">
+				<div id="f2_1" class="f-1">
+				</div>
+
+				<div id="f2_2" class="f-2">
+				</div>
+
+				<div id="f2_3" class="f-3">
+				</div>
+
+				<div id="f2_4" class="f-4">
+				</div>
+
+				<div id="f2_5" class="f-5">
+				</div>
+
+				<div id="f2_6" class="f-6">
+				</div>
+
+				<div id="f2_7" class="f-7">
+				</div>
+
+				<div id="f2_8" class="f-8">
+				</div>
+
+				<div id="f2_9" class="f-9">
+				</div>
+
+			</div>
+
+			<div id="back_details_reg">
+				<div id="det_vac" class="vac">
+				Vacant  5
+				</div>
+
+				<div id="det_par" class="par">
+				Parked  4
+				</div>
+
+				<div id="det_res" class="res">
+				Reserved  3
+				</div>
+			</div>
+
+				<div id="heading_2" class="heading">
+				First Floor
+			</div>
+
+			<div id="h2_details" class="h_details">
+				Vacant : 5<br>
+				Parked : 4<br>
+				Reserved : 3
+
+			</div>
+
+			<div id="h2_image" class="h_image">
+				<img src="f.png">
+			</div>
+		</div>
+
+		<div id="review" onclick="rev_func()">
+			<div id="back_rev" >
+				<img src="arrow.png" height="100%" width="auto">
+
+			</div>
+
+			<div id="floor_div_rev" onclick="ani(3)">
+				<div id="f3_1" class="f-1">
+				</div>
+
+				<div id="f3_2" class="f-2">
+				</div>
+
+				<div id="f3_3" class="f-3">
+				</div>
+
+				<div id="f3_4" class="f-4">
+				</div>
+
+				<div id="f3_5" class="f-5">
+				</div>
+
+				<div id="f3_6" class="f-6">
+				</div>
+
+				<div id="f3_7" class="f-7">
+				</div>
+
+				<div id="f3_8" class="f-8">
+				</div>
+
+				<div id="f3_9" class="f-9">
+				</div>
+
+			</div>
+
+
+			<div id="back_details_rev">
+				<div id="det_vac" class="vac">
+				Vacant  5
+				</div>
+
+				<div id="det_par" class="par">
+				Parked  4
+				</div>
+
+				<div id="det_res" class="res">
+				Reserved  3
+				</div>
+			</div>
+
+			<div id="heading_3" class="heading">
+				Third Floor
+			</div>
+
+			<div id="h3_details" class="h_details">
+				Vacant : 5<br>
+				Parked : 4<br>
+				Reserved : 3
+
+			</div>
+
+			<div id="h3_image" class="h_image">
+				<img src="f2.png">
+			</div>
+
+			
+		</div>
+
+	</div>
+	
+
+</body>
+</html>

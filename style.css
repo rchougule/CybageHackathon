@@ -1,0 +1,559 @@
+
+
+@-webkit-keyframes rotatediv
+{
+	from 
+	{
+		transform:rotate3d(4,0,1,85deg);
+	}
+
+	to
+	{
+		transform:rotate3d(0,0,0,0deg);
+	}
+}
+
+.ani
+{
+	animation:rotatediv;
+	animation-duration: 1.3s;
+	animation-fill-mode: forwards;
+}
+
+#full
+{
+	position: absolute;
+	left: 0%;
+	
+	height: 100%;
+	width: 100%;
+	background:rgba(254,167,51,1);
+}
+
+#top_hide
+{
+	position: absolute;
+	top: 18%;
+	width: 100%;
+	height: 5%;
+	left: 0%;
+	z-index: 6;
+	background:rgba(254,167,51,1);
+
+}
+
+#bottom_hide
+{
+	position: absolute;
+	top: 68%;
+	width: 100%;
+	height: 5%;
+	left: 0%;
+	z-index: 7;
+	background:rgba(254,167,51,1);
+
+}
+
+#back_image
+{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	width: 100%;
+	height: 50%;
+	transform: translate(-50%,0%);
+	
+}
+
+#img_gif
+{
+	position: absolute;
+	height: 101%;
+	width: 100%;
+	padding: -10px;
+}
+
+#back
+{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+background:rgba(128,128,128,0.17);	
+overflow: hidden;
+
+}
+
+#back_temp
+{
+	position: absolute;
+	top: 11%;
+	height: 0%;
+	width: 100%;
+	left: 0%;
+	padding: 10px;
+
+}
+#status_bar
+{
+	position: fixed;
+	top: -10%;
+	left: 0%;
+	height: 10%;
+	width: 100%;
+	
+	background:rgba(254,167,51,1);
+
+	transition-property: top;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+
+
+#student
+{
+	position: absolute;
+	top: 13%;
+	left: 1%;
+	width: 98%;
+	background-color:white;
+	height: 20%; 
+	overflow: hidden;
+
+
+	transition-property: height;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+
+#floor_div_stu
+{
+	position: absolute;
+	top: 20%;
+	height: 45%;
+	width: 90%;
+	left: 5%;
+	transform:rotate3d(4,0,1,85deg);
+	background-color: green;
+	padding: 5px;
+}
+
+#floor_div_reg
+{
+	position: absolute;
+	top: 20%;
+	height: 45%;
+	width: 90%;
+	left: 5%;
+	transform:rotate3d(4,0,1,85deg);
+	background-color: green;
+	padding: 5px;
+}
+
+
+#floor_div_rev
+{
+	position: absolute;
+	top: 20%;
+	height: 45%;
+	width: 90%;
+	left: 5%;
+	transform:rotate3d(4,0,1,85deg);
+	background-color: green;
+	padding: 5px;
+}
+
+
+/*#heading_1
+{
+	position: absolute;
+	top: 4%;
+	height: 30%;
+	width: 40%;
+	left: 10%;
+	color: black;
+	font-size: 65px;
+
+}*/
+
+.heading
+{
+	position: absolute;
+	top: 4%;
+	height: 30%;
+	width: 40%;
+	left: 10%;
+	color: black;
+	font-size: 65px;
+}
+
+.h_details
+{
+	position: absolute;
+	top: 35%;
+	height: 63%;
+	width: 50%;
+	left: 12%;
+	color: black;
+	font-size:40px;
+	opacity: 0.7;
+}
+
+.h_image
+{
+	position: absolute;
+	top:50%;
+	transform:translate(0%,-50%);
+	left: 65%;
+	width: 43%;
+	height: 64%;
+}
+
+.vac
+{
+	position: absolute;
+	width: 20%;
+	left: 8%;
+	font-size: 50px;
+	height: 90%;
+}
+
+.par
+{
+	position: absolute;
+	width: 20%;
+	left: 38%;
+	font-size: 50px;
+	height: 90%;
+}
+
+.res
+{
+	position: absolute;
+	width: 20%;
+	left: 68%;
+	font-size: 50px;
+	height: 90%;
+}
+
+
+#back_details
+{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 76%;
+	background:rgba(128,128,128,0.17);	
+
+	transition-property: height,opacity;
+	transition-duration: 0.4s,0.2s;
+	transition-timing-function: ease-in-out,ease-in-out;
+
+
+}
+
+#back_details_reg
+{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 76%;
+	background:rgba(128,128,128,0.17);	
+
+	transition-property: height,opacity;
+	transition-duration: 0.4s,0.2s;
+	transition-timing-function: ease-in-out,ease-in-out;
+
+
+}
+
+#back_details_rev
+{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 76%;
+	background:rgba(128,128,128,0.17);	
+
+	transition-property: height,opacity;
+	transition-duration: 0.4s,0.2s;
+	transition-timing-function: ease-in-out,ease-in-out;
+
+
+}
+
+
+/*#h1_details
+{
+	position: absolute;
+	top: 35%;
+	height: 63%;
+	width: 50%;
+	left: 12%;
+	color: black;
+	font-size:40px;
+	opacity: 0.7;
+
+}*/
+
+
+#register_centre
+{
+	position: absolute;
+	top: 34%;
+	left: 1%;
+	width: 98%;
+	background-color:white;
+	height: 20%;
+
+	transition-property: height,top;
+	transition-duration: 0.3s,0.3s;
+	transition-timing-function: ease-in-out,ease-in-out;
+}
+
+#review
+{
+	position: absolute;
+	top:55%;
+	left: 1%;
+	width: 98%;
+	background-color:white;
+	height: 20%;
+	overflow: hidden;
+
+	transition-property: height,top;
+	transition-duration: 0.3s,0.3s;
+	transition-timing-function: ease-in-out,ease-in-out;
+
+}
+
+/*#review
+{
+	position: absolute;
+	top: 76%;
+	left: 1%;
+	width: 98%;
+	background-color:green;
+	height: 20%;
+
+	transition-property: height,top;
+	transition-duration: 0.3s,0.3s;
+	transition-timing-function: ease-in-out,ease-in-out;
+}*/
+
+#next_button
+{
+	position: absolute;
+	top: 75%;
+	height: 10%;
+	width: 40%;
+	left:53%;
+	font-size: 70px;
+	transform:translate(-50%,0%);
+	transition-property: width;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.1s;
+}
+
+#next_button:active
+{
+	width: 46%;
+}
+
+#back_stud
+{
+	position: absolute;
+	height: 0%;
+	width: 100%;
+	left: 0%;
+	top: 87.5%;
+	background:rgba(254,167,51,1);
+
+	transition-property: height,opacity;
+	transition-duration: 0.4s,0.2s;
+	transition-timing-function: ease-in-out,ease-in-out;
+
+
+}
+
+#back_centre
+{
+	position: absolute;
+	height: 0%;
+	width: 100%;
+	left: 0%;
+	top: 87.5%;
+	background:rgba(254,167,51,1);
+
+	transition-property: height,opacity;
+	transition-duration: 0.4s,0.2s;
+	transition-timing-function: ease-in-out,ease-in-out;
+
+
+}
+
+#back_rev
+{
+	position: absolute;
+	height: 0%;
+	width: 100%;
+	left: 0%;
+	top: 87.5%;
+	background:rgba(254,167,51,1);
+
+	transition-property: height,opacity;
+	transition-duration: 0.4s,0.2s;
+	transition-timing-function: ease-in-out,ease-in-out;
+}
+
+#left_bar
+{
+	position: fixed;
+	height: 100%;
+	width: 70%;
+	left: -70%;
+	top: 0%;
+	z-index: 10;
+
+	background-color:white;
+
+	transition-property: left;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out; 
+}
+
+#translu
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background:rgba(12,13,14,0.6);
+	z-index: 9;
+}
+
+#left_bar_back
+{
+	position: absolute;
+	height: 30%;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	background-color: #fea733;
+
+
+
+}
+
+#left_butn
+{
+	position: absolute;
+	height: 60%;
+	width: 15%;
+	left: 2%;
+	top: 50%;
+	transform:translate(0%,-50%);
+	overflow: hidden;
+
+
+}
+
+
+/*floor div classes*/
+
+.f-1
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 33.3%;
+	width: 33.3%;
+	background-color: orange;
+}
+
+.f-2
+{
+	position: absolute;
+	top: 0%;
+	left: 33.3%;
+	height: 33.3%;
+	width: 33.3%;
+	background-color: red;
+}
+
+.f-3
+{
+	position: absolute;
+	top: 0%;
+	left: 66.6%;
+	height: 33.3%;
+	width: 33.4%;
+	background-color: blue;
+}
+
+.f-4
+{
+	position: absolute;
+	top: 33.3%;
+	left: 0%;
+	height: 33.3%;
+	width: 33.3%;
+	background-color: blue;
+}
+
+.f-5
+{
+	position: absolute;
+	top: 33.3%;
+	left: 33.3%;
+	height: 33.3%;
+	width: 33.3%;
+	background-color: red;
+}
+
+.f-6
+{
+	position: absolute;
+	top: 33.3%;
+	left: 66.6%;
+	height: 33.3%;
+	width: 33.4%;
+	background-color: yellow;
+}
+
+.f-7
+{
+	position: absolute;
+	top: 66.6%;
+	left: 0%;
+	height: 33.4%;
+	width: 33.3%;
+	background-color: yellow;
+}
+
+.f-8
+{
+	position: absolute;
+	top: 66.6%;
+	left: 33.3%;
+	height: 33.4%;
+	width: 33.3%;
+	background-color: orange;
+}
+
+.f-9
+{
+	position: absolute;
+	top: 66.6%;
+	height: 33.4%;
+	width: 33.4%;
+	left: 66.6%;
+	background-color: red;
+}
+
+
+
+
+
+
+
